@@ -1,1 +1,74 @@
-body{background-color:blue;}
+/* Reset de estilos padrão */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo para o cabeçalho */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilo para o conteúdo principal */
+  section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  article {
+    margin-bottom: 20px;
+  }
+  
+  article h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  article p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  article a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Estilo para o rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
